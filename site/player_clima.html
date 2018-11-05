@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+
+<!-- Bibliotecas necessárias: ar.js para RA e three.js para os gráficos 3D -->
+<script src="./src/backend/scripts/three.min.js"></script>
+<script src="./src/backend/scripts/ar.min.js"></script>
+
+<!-- Fonte -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+
+<html>
+	<head>
+		<title>PlanetARio - Clima</title>
+		<style type="text/css">
+			body {
+				overflow: hidden;
+				margin: 0;
+				background: #f2f2f2;
+			}
+
+			#layerSelector {
+				font-family: sans-serif;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				padding: 20px;
+				background: #f2f2f2;
+				width: 100%;
+				align-content: center;
+			}
+
+			#layerKey {
+				position: fixed;
+				bottom: 65px;
+				right: 5px;
+				width: 80%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- Canvas usada pela aplicação JavaScript -->
+		<canvas id="arCanvas" width= window.innerWidth height=window.innerHeight>Canvas HTML5 não suportado nesse browser</canvas>
+
+		<!-- Campo que mostra a escala da informação -->
+		<img id="layerKey" src="">
+		<!-- Parte com o campo de seleção de camadas -->
+		<select id="layerSelector">
+			<option value="nothing">Nenhuma Camada</option>
+			<option value="clouds_new">Nuvens</option>
+			<option value="precipitation_new">Precipitação</option>
+			<option value="pressure_new">Pressão</option>
+			<option value="temp_new">Temperatura</option>
+			<option value="wind_new">Velocidade do Vento</option>
+		</select>
+
+		<!-- Script principal -->
+		<script src="./src/scripts/player_clima.js"></script>
+	</body>
+</html>

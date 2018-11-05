@@ -1,0 +1,27 @@
+{
+  "name": "planetar-io",
+  "version": "1.0.0",
+  "description": "A site with Augmented Reality experiments related to astronomy and the Solar System. Built with love and AR.js <3",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-sslify": "^1.2.0",
+    "npm": "^6.4.1",
+    "serve-static": "*",
+    "ws": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Augmented Reality",
+    "WebAR",
+    "AR.js",
+    "Astronomy",
+    "Solar System"
+  ],
+  "author": "Paulo Henrique da Silva Ferreira",
+  "license": "MIT"
+}
