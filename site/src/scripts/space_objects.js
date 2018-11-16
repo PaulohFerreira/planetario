@@ -27,8 +27,8 @@ var spaceObjects = {
 		textboxInformation: {
 		    startX: 20,
 		    startY: 20,
-		    width: 400,
-		    height: 600,
+		    width: 600,
+		    height: 850,
 		    cornerRadius: 20,
 		    backgroundStyle: "#c43402",
 		    frameStyle: "#ffffb4",
@@ -52,7 +52,7 @@ Temperatura Média:  5.498,85 °C
 		    textStyle: "#FFFFFF",
 		    textX: 50,
 		    textY: 150,
-		    textSize: 15,
+		    textSize: 25,
 		}
 	},
 
@@ -73,8 +73,8 @@ Temperatura Média:  5.498,85 °C
 		textboxInformation: {
 		    startX: 20,
 		    startY: 20,
-		    width: 400,
-		    height: 600,
+		    width: 600,
+		    height: 850,
 		    cornerRadius: 20,
 		    backgroundStyle: "#737373",
 		    frameStyle: "#9d9d9d",
@@ -100,7 +100,7 @@ Número de Luas:  0
 		    textStyle: "#FFFFFF",
 		    textX: 50,
 		    textY: 150,
-		    textSize: 15,
+		    textSize: 25,
 		}
 	},
 
@@ -121,8 +121,8 @@ Número de Luas:  0
 		textboxInformation: {
 		    startX: 20,
 		    startY: 20,
-		    width: 400,
-		    height: 600,
+		    width: 600,
+		    height: 850,
 		    cornerRadius: 20,
 		    backgroundStyle: "#c96e25",
 		    frameStyle: "#dc973a",
@@ -148,7 +148,7 @@ Número de Luas:  0
 		    textStyle: "#FFFFFF",
 		    textX: 50,
 		    textY: 150,
-		    textSize: 15,
+		    textSize: 25,
 		}
 	},
 
@@ -169,8 +169,8 @@ Número de Luas:  0
 		textboxInformation: {
 		    startX: 20,
 		    startY: 20,
-		    width: 400,
-		    height: 600,
+		    width: 600,
+		    height: 850,
 		    cornerRadius: 20,
 		    backgroundStyle: "#0056a2",
 		    frameStyle: "#0aa300",
@@ -196,7 +196,7 @@ Número de Luas:  1
 		    textStyle: "#FFFFFF",
 		    textX: 50,
 		    textY: 150,
-		    textSize: 15,
+		    textSize: 25,
 		} 
  	},
 
@@ -217,8 +217,8 @@ Número de Luas:  1
 		textboxInformation: {
 		    startX: 20,
 		    startY: 20,
-		    width: 400,
-		    height: 600,
+		    width: 600,
+		    height: 850,
 		    cornerRadius: 20,
 		    backgroundStyle: "#5e3931",
 		    frameStyle: "#db5d34",
@@ -244,7 +244,7 @@ Número de Luas:  2
 		    textStyle: "#FFFFFF",
 		    textX: 50,
 		    textY: 150,
-		    textSize: 15,
+		    textSize: 25,
 		}
  	},
 
@@ -265,8 +265,8 @@ Número de Luas:  2
 		textboxInformation: {
 		    startX: 20,
 		    startY: 20,
-		    width: 400,
-		    height: 600,
+		    width: 600,
+		    height: 850,
 		    cornerRadius: 20,
 		    backgroundStyle: "#798585",
 		    frameStyle: "#c6ae96",
@@ -292,7 +292,7 @@ Número de Luas:  79
 		    textStyle: "#FFFFFF",
 		    textX: 50,
 		    textY: 150,
-		    textSize: 15,
+		    textSize: 25,
 		}
  	},
 
@@ -313,8 +313,8 @@ Número de Luas:  79
 		textboxInformation: {
 		    startX: 20,
 		    startY: 20,
-		    width: 400,
-		    height: 600,
+		    width: 600,
+		    height: 850,
 		    cornerRadius: 20,
 		    backgroundStyle: "#8c9990",
 		    frameStyle: "#ffeacd",
@@ -340,7 +340,7 @@ Número de Luas:  62
 		    textStyle: "#FFFFFF",
 		    textX: 50,
 		    textY: 150,
-		    textSize: 15,
+		    textSize: 25,
 		}
  	},
 
@@ -361,8 +361,8 @@ Número de Luas:  62
 		textboxInformation: {
 		    startX: 20,
 		    startY: 20,
-		    width: 400,
-		    height: 600,
+		    width: 600,
+		    height: 850,
 		    cornerRadius: 20,
 		    backgroundStyle: "#82adb4",
 		    frameStyle: "#afe4ea",
@@ -388,7 +388,7 @@ Número de Luas:  27
 		    textStyle: "#FFFFFF",
 		    textX: 50,
 		    textY: 150,
-		    textSize: 15,
+		    textSize: 25,
 		}
  	},
 
@@ -409,8 +409,8 @@ Número de Luas:  27
 		textboxInformation: {
 		    startX: 20,
 		    startY: 20,
-		    width: 400,
-		    height: 600,
+		    width: 600,
+		    height: 850,
 		    cornerRadius: 20,
 		    backgroundStyle: "#2d3484",
 		    frameStyle: "#3e7ad0",
@@ -436,7 +436,7 @@ Número de Luas:  14
 		    textStyle: "#FFFFFF",
 		    textX: 50,
 		    textY: 150,
-		    textSize: 15,
+		    textSize: 25,
 		}
  	}
  }
