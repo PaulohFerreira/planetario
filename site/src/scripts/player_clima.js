@@ -7,9 +7,6 @@
 
 	OBS: Para utilizar essa aplicação, por favor gere uma chave de API do OpenWeatherMaps,
 	e substitua o termo <OpenWeatherMaps API Key> por ela.
-
-	8a6748c1daf35a4055d6396f8250f728
-
 	
 	Paulo Henrique da Silva Ferreira
 	10/07/2018
@@ -445,7 +442,7 @@ function downloadAndConvertWeatherLayer(layerName){
 	// Faz o download da camada
 	let layer = new Image();
 	layer.crossOrigin = "Anonymous";
-	layer.src = `https://tile.openweathermap.org/map/${layerName}/0/0/0.png?appid=8a6748c1daf35a4055d6396f8250f728`; // Imagem do OpenWeatherMap
+	layer.src = `https://tile.openweathermap.org/map/${layerName}/0/0/0.png?appid=<OpenWeatherMaps API Key>`; // Imagem do OpenWeatherMap
 	layer.onload = () => {
 		// Inicia o processo de conversão de projeções cartográficas (Mercator -> Equiretangular(wgs84))
 		layerSourceContext.drawImage(layer, 0, 0); // Copia a imagem baixada para o canvas, para ser manipulada
