@@ -442,7 +442,7 @@ function downloadAndConvertWeatherLayer(layerName){
 	// Faz o download da camada
 	let layer = new Image();
 	layer.crossOrigin = "Anonymous";
-	layer.src = `https://tile.openweathermap.org/map/${layerName}/0/0/0.png?appid=<OpenWeatherMaps API Key>`; // Imagem do OpenWeatherMap
+	layer.src = `https://tile.openweathermap.org/map/${layerName}/0/0/0.png?appid=0b3421ae2cedbb1d1058f8d074dbc201`; // Imagem do OpenWeatherMap
 	layer.onload = () => {
 		// Inicia o processo de conversão de projeções cartográficas (Mercator -> Equiretangular(wgs84))
 		layerSourceContext.drawImage(layer, 0, 0); // Copia a imagem baixada para o canvas, para ser manipulada
