@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "express-sslify": "^1.2.0",
-    "npm": "^6.13.4",
+    "npm": "^6.14.6",
     "serve-static": "*",
     "ws": "^6.1.0"
   },
